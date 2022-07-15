@@ -28,7 +28,8 @@ dataSources:
     processor:
       file: ./node_modules/@subql/frontier-evm-processor/dist/index.js
       options:
-        abi: erc20
+        # abi: erc20
+        abi: erc721
     # assets:
     #   erc20:
     #     file: ./erc20.abi.json
